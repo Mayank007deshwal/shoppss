@@ -1,6 +1,7 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded any time
@@ -29,6 +30,8 @@ Rails.application.configure do
 
     config.cache_store = :null_store
   end
+
+  config.hosts << "ff2d-183-83-212-189.in.ngrok.io"
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local

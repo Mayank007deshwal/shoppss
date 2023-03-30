@@ -33,3 +33,4 @@ class WebhooksController < ApplicationController
 
     render json: { message: 'success' }
   end
+end

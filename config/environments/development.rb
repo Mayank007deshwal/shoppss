@@ -31,7 +31,7 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  config.hosts << "a9a4-2406-b400-52-9912-b41c-d1da-3317-465a.in.ngrok.io"
+  config.hosts << "c9bc-2406-b400-52-979a-d152-17c9-792a-c5e2.in.ngrok.io"
   # a9a4-2406-b400-52-9912-b41c-d1da-3317-465a.in.ngrok.io 
 
   # Store uploaded files on the local file system (see config/storage.yml for options).
